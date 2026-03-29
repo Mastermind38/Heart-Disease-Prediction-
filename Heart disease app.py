@@ -10,8 +10,7 @@ st.title("💓 Heart Disease Prediction Model")
 
 # --- 1. LOAD DATA ---
 try:
-    df = pd.read_csv(r"E:\Data analyze python\Heart_Disease_Prediction.csv")
-    
+    df = pd.read_csv("Heart_Disease_Prediction.csv")
     # Assume the standard 13 columns + Target exist.
     # If your CSV has different names, you might need to rename them in Excel first.
     # Standard names: Age, Sex, CP, BP, Chol, FBS, EKG, MaxHR, ExerciseAngina, ST_Depression, Slope, Vessels, Thalassemia, Target
